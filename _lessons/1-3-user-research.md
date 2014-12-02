@@ -10,6 +10,10 @@ resources:
       title: Just Enough Research
       url: http://www.abookapart.com/products/just-enough-research
       author: Erika Hall
+    -
+      title: Observing the User Experience, Second Edition
+      url: http://www.amazon.com/Observing-User-Experience-Second-Edition/dp/0123848695
+      author: Elizabeth Goodman, Mike Kuniavsky, & Andrea Moed
 
 terms:
   - term: Generative Research
