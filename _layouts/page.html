@@ -3,9 +3,22 @@ layout: default
 ---
 
 <article>
-	<h1>
-		{{ page.title | textilize | strip_html }}
-	</h1>
+	<header>
+		{% if page.week %}
+			{% for week in site.weeks %}
+				{% if week.number == page.week %}
+					<h4><a href="{{ week.url }}">&larr; Week {{ week.number }}: {{ week.title }}</a></h4>
+					{% assign c = "current" %}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		{% if page.collection == 'weeks' %}
+			<h4>Week {{ page.number }}</h4>
+		{% endif %}
+		<h1>
+			{{ page.title | textilize | strip_html }}
+		</h1>
+	</header>
 	{{ content }}
 </article>
 

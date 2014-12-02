@@ -11,6 +11,20 @@
 		{% else %}
 			<a href="{{ r.url }}">{{ r.url }}</a>
 		{% endif %}
+		{% if r.author %}
+			by {{ r.author }}
+		{% endif %}
+		{% if r.see %}
+			<small>
+			(See
+				{% if r.see.title %}
+					<a href="{{ r.see.url }}">{{ r.see.title }}</a>{% else %}
+					<a href="{{ r.see.url }}">{{ r.see.url }}</a>{% endif %})
+			</small>
+		{% endif %}
+		{% if r.note %}
+			<small>({{ r.note }})</small>
+		{% endif %}
 	{% endif %}
 {% endif %}
 

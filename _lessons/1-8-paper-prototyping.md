@@ -7,13 +7,25 @@ date: Dec. 1, 2014
 resources:
   videos:
     - url: http://www.youtube.com/watch?v=GrV2SZuRPv0
-      title: Paper Prototyping video
+      title: Hanmail Paper Prototype
   articles:
-    - url: http://www.nngroup.com/articles/paper-prototyping/
-    - url: http://speckyboy.com/2010/06/24/10-effective-video-examples-of-paper-prototyping/
-    - url: http://usabilitygeek.com/paper-prototyping-as-a-usability-testing-technique/
+    -
+      url: http://www.nngroup.com/articles/paper-prototyping/
+      title: 'Paper Prototyping: Getting User Data Before You Code'
+      author: Jakob Nielsen
+    -
+      url: http://speckyboy.com/2010/06/24/10-effective-video-examples-of-paper-prototyping/
+      title: 10 Effective Video Examples of Paper Prototyping
+      author: Paul Andrew
+    -
+      url: http://usabilitygeek.com/paper-prototyping-as-a-usability-testing-technique/
+      title: Paper Prototyping As A Usability Testing Technique
+      author: Justin Mifsud
   books:
-    - url: http://www.amazon.com/exec/obidos/tg/detail/-/1558608702/qid=1050447571
+    -
+      url: http://www.amazon.com/exec/obidos/tg/detail/-/1558608702/qid=1050447571
+      title: 'Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces'
+      author: Carolyn Snyder
 
 
 terms:

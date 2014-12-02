@@ -6,7 +6,9 @@ date: Dec. 1, 2014
 
 resources:
   articles:
-    - url: http://v2.centralstory.com/about/squiggle/
+    -
+      url: http://v2.centralstory.com/about/squiggle/
+      title: That Squiggle of the Design Process
 #     - url: http://www.designcouncil.org.uk/sites/default/files/asset/document/ElevenLessons_Design_Council%20(2).pdf
 #     - url: http://www.designcouncil.org.uk/
   videos:

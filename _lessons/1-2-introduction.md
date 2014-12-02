@@ -5,9 +5,16 @@ number: 2
 date: Dec. 1, 2014
 resources:
   articles:
-    - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+    -
+      url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+      title: The Elements of User Experience, Chapter 2
+      author: Jesse James Garrett
     - url: http://ia.net/blog/can-experience-be-designed/
+      title: Can Experience be Designed?
+      author: Oliver Reichenstein
     - url: http://ia.net/blog/can-experience-be-designed-2/
+      title: Can Experience be Designed? (2)
+      author: Oliver Reichenstein
 terms:
   - term: User Experience
     definition: The overall experience that a person has when interacting with a product, service, or company.

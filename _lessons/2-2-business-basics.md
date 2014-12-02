@@ -8,21 +8,42 @@ resources:
   articles:
     - heading: Business Models
       resources:
-        - url: http://thenextweb.com/entrepreneur/2011/05/25/the-9-types-of-online-business-models-which-one-do-you-use/
-        - url: http://en.wikipedia.org/wiki/Business_model
+        -
+          url: http://thenextweb.com/entrepreneur/2011/05/25/the-9-types-of-online-business-models-which-one-do-you-use/
+          title: The 9 types of online business models; which one do you use?
+        -
+          url: http://en.wikipedia.org/wiki/Business_model
+          title: Business model on Wikipedia
   
     - heading: Stakeholder Interviews
       resources:
-        - url: http://boxesandarrows.com/a-stakeholder-interview-checklist/
-        - url: http://www.uxapprentice.com/resources/stakeholder-interview-template/
-        - url: http://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php
-        - url: http://cognition.happycog.com/article/better-stakeholder-interviews
+        -
+          url: http://boxesandarrows.com/a-stakeholder-interview-checklist/
+          title: A Stakeholder Interview Checklist
+          author: Kim Goodwin
+        -
+          url: http://www.uxapprentice.com/resources/stakeholder-interview-template/
+          title: Stakeholder Interview Template
+        -
+          url: http://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php
+          title: Conducting Successful Interviews With Project Stakeholders
+          author: Steve Baty
+        -
+          url: http://cognition.happycog.com/article/better-stakeholder-interviews
+          title: Better Stakeholder Interviews
+          author: Chris Cashdollar
   
     - heading: Competitive Analysis
       resources:
-        - url: http://en.wikipedia.org/wiki/Competitor_analysis
-        - url: http://www.inc.com/guides/2010/05/conducting-competitive-research.html
-        - title: A usability heuristic that was originally created for competitive analysis
+        -
+          url: http://en.wikipedia.org/wiki/Competitor_analysis
+          title: Competitor analysis on Wikipedia
+        -
+          url: http://www.inc.com/guides/2010/05/conducting-competitive-research.html
+          title: How to Conduct Competitive Research
+        -
+          title: System usability scale on Wikipedia
+          note: A usability heuristic that was originally created for competitive analysis
           url: http://en.wikipedia.org/wiki/System_usability_scale
 
 

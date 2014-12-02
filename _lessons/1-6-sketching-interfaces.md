@@ -6,7 +6,9 @@ date: Dec. 1, 2014
 
 resources:
   videos:
-    - url: www.youtube.com/watch?v=2w3gXXvUSGM
+    -
+      url: http://www.youtube.com/watch?v=2w3gXXvUSGM
+      title: Sketching in Layers
 
 terms:
   - term: Wireflows

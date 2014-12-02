@@ -6,12 +6,14 @@ date: Dec. 1, 2014
 
 resources:
   books:
-    - type: book
+    -
       title: Understanding Comics
       author: Scott McCloud
-    - type: book
+      url: http://www.amazon.com/Understanding-Comics-The-Invisible-Art/dp/006097625X
+    -
       title: See What I Mean
       author: Kevin Cheng
+      url: http://www.amazon.com/See-What-Mean-Comics-Communicate/dp/1933820276/ref=sr_1_1?s=books&ie=UTF8&qid=1417532786&sr=1-1&keywords=see+what+i+mean
 
 terms:
   - term: Sketching
