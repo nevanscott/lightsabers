@@ -17,6 +17,9 @@ resources:
     - url: http://www.idemployee.id.tue.nl/g.w.m.rauterberg/lecturenotes/UFTtask-analysis.pdf
     - url: http://www.humanreliability.com/articles/Task%20Analysis%20Techniques.pdf
     - url: http://www.usabilitybok.org/cognitive-task-analysis
+    -
+      url: http://layervault.tumblr.com/post/42361566927/progressive-reduction
+      title: Progressive Reduction
     - heading: Task Analysis
       resources:
         - url: http://en.wikipedia.org/wiki/Task_analysis
