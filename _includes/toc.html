@@ -1,0 +1,23 @@
+<h2>Table of Contents</h2>
+
+{% for w in site.weeks %}
+	{% unless w.disabled %}
+    <h4>
+      <a href="{{ w.url }}">
+        Week {{ w.number }}:
+        {{ w.title }}
+      </a>
+    </h4>
+    <ol>
+    {% for p in site.lessons %}
+      {% if p.week == w.number %}
+        <li>
+          <a href="{{ p.url }}">
+            {{ p.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+	{% endunless %}
+{% endfor %}

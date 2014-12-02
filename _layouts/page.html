@@ -20,6 +20,9 @@ layout: default
 		</h1>
 	</header>
 	{{ content }}
+	{% if page.toc %}
+		{% include toc.html %}
+	{% endif %}
 </article>
 
 <aside id="nav">
