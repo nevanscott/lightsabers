@@ -40,8 +40,9 @@ h1, h2, h3, h4, dt, #nav {
 }
 
 h1 {
-	font-weight: 800;
+	font-weight: normal;
 	border-bottom: 1px solid rgba(0,0,0,.1);
+	font-size: 1.75em;
 }
 h1 small {
 	float: right;
@@ -50,6 +51,7 @@ h1 small {
 }
 h2 {
 	margin-top: 1.5em;
+	font-weight: normal;
 }
 h3 {
 	margin-top: 1.5em;
@@ -195,6 +197,14 @@ article {
   header {
   	h1, h2, h3, h4 {
   		margin: 0;
+  	}
+  	h4 {
+			font-weight: normal;
+			font-size: .8em;
+			color: #999;
+			a {
+				color: inherit;
+			}
   	}
   	margin: 1.5em 0;
   }
