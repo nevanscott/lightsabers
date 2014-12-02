@@ -4,6 +4,13 @@ week: 1
 number: 3
 date: Dec. 1, 2014
 
+resources:
+  books:
+    -
+      title: Just Enough Research
+      url: http://www.abookapart.com/products/just-enough-research
+      author: Erika Hall
+
 terms:
   - term: Generative Research
     definition: Research geared towards generating new ideas and widening the area of exploration.
