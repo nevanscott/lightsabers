@@ -18,6 +18,14 @@ body {
 	color: #333;
 }
 
+.admin {
+	opacity: 0;
+	margin-bottom: -1.5em;
+	&:hover {
+		opacity: 1;
+	}
+}
+
 #main, #main-nav, #secondary {
 	margin: 0 5%;
 }

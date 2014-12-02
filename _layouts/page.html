@@ -18,6 +18,14 @@ layout: default
 		<h1>
 			{{ page.title | textilize | strip_html }}
 		</h1>
+		{% if page.collection == 'lessons' %}
+			<div class="admin">
+				<small>
+					<a href="https://github.com/nevanscott/phasers/edit/gh-pages/_lessons/{{ page.path | split:'_lessons/' | last }}">Edit</a>
+					<small>(Admins only, sorry guys)</small>
+				</small>
+			</div>
+		{% endif %}
 	</header>
 	{{ content }}
 	{% if page.toc %}
