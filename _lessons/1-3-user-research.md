@@ -5,6 +5,13 @@ number: 3
 date: Dec. 1, 2014
 
 resources:
+  services:
+    -
+      title: UserTesting
+      url: http://www.usertesting.com
+    -
+      title: SurveyLegend
+      url: https://www.surveylegend.com
   books:
     -
       title: Just Enough Research
