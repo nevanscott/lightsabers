@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+	<h1>
+		{{ page.title | textilize | strip_html }}
+	</h1>
+	{{ content }}
+</article>
+
+<aside id="nav">
+  {% include nav.html %}
+</aside>

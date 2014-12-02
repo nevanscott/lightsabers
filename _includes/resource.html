@@ -1,0 +1,20 @@
+{% if r.title or r.url %}
+	{% if r.type == 'book' %}
+		<cite>{{ r.title }}</cite>
+		{% if r.author %}
+			by {{ r.author }}
+		{% endif %}
+		{{ r.see }}
+	{% else %}
+		{% if r.title %}
+			<a href="{{ r.url }}">{{ r.title }}</a>
+		{% else %}
+			<a href="{{ r.url }}">{{ r.url }}</a>
+		{% endif %}
+	{% endif %}
+{% endif %}
+
+{% if r.heading %}
+	<h4>{{ r.heading }}</h4>
+	{% include resources_list.html list=r.resources %}
+{% endif %}

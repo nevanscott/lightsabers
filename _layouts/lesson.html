@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.resources %}
+	<h2>Additional Resources</h2>
+	{% include resources_list.html list=page.resources %}
+	{% include resources_list.html list=page.resources.books title="Books" %}
+	{% include resources_list.html list=page.resources.apps title="Apps" %}
+	{% include resources_list.html list=page.resources.services title="Services" %}
+	{% include resources_list.html list=page.resources.articles title="Articles" %}
+	{% include resources_list.html list=page.resources.videos title="Videos" %}
+	{% include resources_list.html list=page.resources.presentations title="Presentations" %}
+	{% include resources_list.html list=page.resources.guides title="Guides" %}
+	{% include resources_list.html list=page.resources.kits title="Kits" %}
+	{% include resources_list.html list=page.resources.plugins title="Plugins" %}
+	{% include resources_list.html list=page.resources.examples title="Examples" %}
+{% endif %}
+
+{% if page.terms %}
+	<h2>Key Terms & Concepts</h2>
+	<dl>
+	{% for term in page.terms %}
+		<dt>{{ term.term }}</dt>
+		{% if term.definition %}
+			<dd>{{ term.definition | markdownify }}</dd>
+		{% endif %}
+	{% endfor %}
+	</dl>
+{% endif %}

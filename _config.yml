@@ -1,0 +1,39 @@
+baseurl: ''
+permalink: /:categories/:title/
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title/
+  weeks:
+    output: true
+    permalink: /week-:name/
+  lessons:
+    output: true
+    permalink: /:collection/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "weeks"
+    values:
+      layout: "week"
+  -
+    scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: "lesson"
+relative_permalinks: false
+markdown: redcarpet
+future: true
+redcarpet:
+  extensions:
+    - 'autolink'
+    - 'smart'
+    - 'hard_wrap'

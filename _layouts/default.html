@@ -1,0 +1,64 @@
+---
+layout: nil
+---
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ GA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+  <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+	<script>window.onload = function(){ document.body.className += " loaded"; }</script>
+</head>
+<body>
+
+<header id="page-header">
+  <div class="info">
+    <a href="{{ site.baseurl }}/">
+      <h4>
+        General&nbsp;Assembly
+      </h4>
+      <h1>
+        {{ site.data.course.abbreviation }} {{ site.data.course.iteration }}
+      </h1>
+    </a>
+	</div>
+  <nav>
+    <ul>
+      {% for item in page.nav %}
+        
+        {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
+        {% assign url_parts = page.url | split:"/" %}
+        {% assign section_slug = url_parts[1] %}
+                
+        {% if item_url == page.url %}
+          {% assign c = "current" %}
+        {% elsif item == section_slug %}
+          {% assign c = "current" %}
+        {% else %}
+          {% assign c = "" %}
+        {% endif %}
+
+        {% for p in site.pages %}
+          {% if p.url == item_url %}
+            <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<section id="main">
+{{ content }}
+</section>
+
+<footer></footer>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% if include.list %}
+{% if include.title %}
+<h3>{{ include.title }}</h3>
+{% endif %}
+<ul>
+	{% for r in include.list %}
+		{% include resource_li.html %}
+	{% endfor %}
+</ul>
+{% endif %}

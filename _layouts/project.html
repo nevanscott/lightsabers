@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<h4>During</h4>
+<ul>
+{% for week in page.weeks %}
+	{% for p in site.weeks %}
+		{% if p.number == week %}
+			<li>
+				<a href="{{ p.url }}">
+					<strong>Week {{ p.number }}</strong>:
+					{{ p.title }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+</ul>
+
+{{ content }}
