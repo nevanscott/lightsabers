@@ -14,7 +14,7 @@ resources:
       title: See What I Mean
       author: Kevin Cheng
       url: http://www.amazon.com/See-What-Mean-Comics-Communicate/dp/1933820276/ref=sr_1_1?s=books&ie=UTF8&qid=1417532786&sr=1-1&keywords=see+what+i+mean
-articles:
+ articles:
     -
       title: Designing Screens Using Cores and Paths
       author: Jim Kalbach	and	Karen Lindemann
