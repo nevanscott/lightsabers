@@ -67,8 +67,7 @@ The 4 lists writing exercise is a method you can use to interview users about a 
 
 Once they are finished with their first list go ahead and give them the next category, we want to wait til the end before interviewing users about what they wrote. If your user is still having issues understanding the exercise describe the category more instead of giving examples--we dont want to lead or bias them--so, for Pain Points describe the things they should be writing as frustrating moments, infurating situations, or sad times; for contexts just say times and places.  By the end of the exercise your subject will have 4 lists and then the real interview begins. Take the lists and start asking "What did you mean by this?" and "Tell me what you mean by that." You may need to probe deeper and deeper based on the responses until you find a connection between the contexts, behaviors, pains and pleasures. 
 
+By the end of the interview you will have a better means to define the problem space you are studying through connections between contexts (times and places), motivations (avoiding pains or pleasures), and user goals (outcome of behavior).
+
 **Example:** [Google Form Version](https://docs.google.com/forms/d/1u2tq-j4ToNwOBpp_f9yDezNnSCXtfpFrIAqkoO-eaCo/viewform)
 This was used internally with the team and not with users. That is why the intro is a little different.
-
-
-By the end of the interview you will have a better means to define the problem space you are studying through connections between contexts (times and places), motivations (avoiding pains or pleasures), and user goals (outcome of behavior).
