@@ -57,11 +57,11 @@ terms:
 
 ---
 
-# Methods
+## Methods
 
-## 4 Lists aka Contexts Behaviors Pains & Pleasures
+### 4 Lists aka Contexts Behaviors Pains & Pleasures
 
-**Example:** Google Form Version https://docs.google.com/forms/d/1u2tq-j4ToNwOBpp_f9yDezNnSCXtfpFrIAqkoO-eaCo/viewform
+**Example:** [Google Form Version](https://docs.google.com/forms/d/1u2tq-j4ToNwOBpp_f9yDezNnSCXtfpFrIAqkoO-eaCo/viewform)
 
 The 4 lists writing exercise is a method you can use to interview users about a given problem space. It is a good method because it keeps the users doing more of the talking and prevents you as the interviewer from asking leading questions. To facilitate this exercise provide your interview subject with a pen and paper and instruct them to write out as many words, stories, phrases, or anecdotes that come to mind for the topic/problem space you are researching under the following categories: contexts (times & places), behaviors (verbs), Pain points, and Pleasure points. For example, if you were studying how people experience social interactions you would say
 
