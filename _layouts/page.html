@@ -21,7 +21,7 @@ layout: default
 		{% if page.collection == 'lessons' %}
 			<div class="admin">
 				<small>
-					<a href="https://github.com/nevanscott/phasers/edit/gh-pages/_lessons/{{ page.path | split:'_lessons/' | last }}">Edit</a>
+					<a href="{{ site.data.course.gh_base }}_lessons/{{ page.path | split:'_lessons/' | last }}">Edit</a>
 					<small>(admins only, sorry guys)</small>
 				</small>
 			</div>
